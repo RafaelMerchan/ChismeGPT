@@ -51,4 +51,3 @@ Abre otra terminal y ejecuta el cliente:
 
     Cada mensaje tarda 500 ms en procesarse.
 
-Cliente 1: Enviando mensaje 3...
