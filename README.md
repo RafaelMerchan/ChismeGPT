@@ -37,7 +37,7 @@ Abre una terminal y ejecuta el núcleo:
 
 Abre otra terminal y ejecuta el cliente:
 
-    	./client
+	./client
 
 **Cómo funciona**
 
@@ -50,40 +50,5 @@ Abre otra terminal y ejecuta el cliente:
         Los mensajes de usuarios pre-pago se limitan a 10.
 
     Cada mensaje tarda 500 ms en procesarse.
-
-
-## Ejemplo de uso:
-**Salida del núcleo (core.c)**:
-
-
-Procesando mensaje...
-
-ID Usuario: 12
-
-Tipo Usuario: P
-
-Texto: Hola, soy el usuario 12
-
-Mensaje procesado.
-
-
-Procesando mensaje...
-
-ID Usuario: 15
-
-Tipo Usuario: R
-
-Texto: Hola, soy el usuario 15
-
-Mensaje procesado.
-
-El usuario pre-pago ID 15 ha alcanzado su límite de mensajes.
-
-**Salida del cliente (client.c)**:
-
-
-Cliente 1: Enviando mensaje 1...
-
-Cliente 1: Enviando mensaje 2...
 
 Cliente 1: Enviando mensaje 3...
